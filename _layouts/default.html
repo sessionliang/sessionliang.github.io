@@ -1,21 +1,16 @@
-<!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-    {% include /head.html %}
-    <body>
-        <div id="wrapper">
-        {% include /header.html %}
 
-            <!-- Main -->
-            <div id="main">
-                {{ content }}
+  {% include head.html %}
 
-            </div>
-            {% include /footer.html %}
-		</div>
-	</body>
+  <body class="no-sidebar">
+
+    {% include header.html %}
+    <div class="page-content">
+        {{ content }}
+    </div>
+    {% include footer.html %}
+
+  </body>
+
 </html>

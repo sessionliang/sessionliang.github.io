@@ -1,61 +1,41 @@
 /*
-	Read Only by HTML5 UP
+	Twenty by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+/* Section/Article */
 
-	code,
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea,
-	.box,
-	.image,
-	.image img,
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button {
-		position: relative;
-		-ms-behavior: url("css/ie/PIE.htc");
+	section > .last-child,
+	article > .last-child {
+		margin-bottom: 0;
 	}
 
-/* Form */
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select {
-		line-height: 2.75em;
+	section.last-child,
+	article.last-child {
+		margin-bottom: 0;
 	}
 
-	input[type="checkbox"],
-	input[type="radio"] {
-		-moz-appearance: normal;
-		-webkit-appearance: normal;
-		-o-appearance: normal;
-		-ms-appearance: normal;
-		appearance: normal;
+/* Banner */
+
+	#banner {
+		background-image: url("../../images/banner.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: auto;
+		-ms-behavior: url("css/ie/backgroundsize.min.htc");
 	}
 
-		input[type="checkbox"] + label,
-		input[type="radio"] + label {
-			padding: 0 0 0 1.5em;
+		#banner .inner {
+			background: #341b2b;
 		}
 
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
-				display: none;
-			}
+/* CTA  */
 
-/* Button */
-
-	input[type="submit"].alt,
-	input[type="reset"].alt,
-	input[type="button"].alt,
-	.button.alt {
-		border: solid 2px #e4e4e4;
+	#cta {
+		background-image: url("../../images/banner.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: auto;
+		-ms-behavior: url("css/ie/backgroundsize.min.htc");
 	}

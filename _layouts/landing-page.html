@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-  {% include /head.html %}
+  {% include head.html %}
 
-	<body id="top">
+  <body class="index">
 
-        {% include /header.html %}
+    {% include header.html %}
+    {% include banner.html %}
 
-        <!-- Banner -->
-        <section id="banner">
-            <div class="inner">
-                <h2>This is Ion</h2>
-                <p>A free responsive template by <a href="http://templated.co">TEMPLATED</a></p>
-                <ul class="actions">
-                    <li><a href="#content" class="button big special">Sign Up</a></li>
-                    <li><a href="#elements" class="button big alt">Learn More</a></li>
-                </ul>
-            </div>
-        </section>
+    <div class="page-content">
         {{ content }}
-        {% include /footer.html %}
+    </div>
 
-    </body>
+    {% include footer.html %}
+
+  </body>
 
 </html>
