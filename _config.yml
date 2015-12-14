@@ -1,13 +1,13 @@
-# Site settings
+﻿# Site settings
 title: .net初学者
 description: >
-  喜欢代码
+  加油吧，少年！！！
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://sessionliang.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: Motaquillah Maddane
+  fullname: SESL
   #googleplus: https://www.google.com/+MotaquillahMaddane
   github: sessionliang
   #twitter: electrik_frog
