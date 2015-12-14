@@ -1,7 +1,6 @@
 ﻿---
 layout: post
 title:  "Publish Subscribe"
-subtitle: "emtf"
 categories: [design]
 ---
 
