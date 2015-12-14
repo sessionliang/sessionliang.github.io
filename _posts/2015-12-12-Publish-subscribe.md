@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Publish Subscribe"
 categories: [design]
